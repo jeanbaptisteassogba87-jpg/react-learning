@@ -10,7 +10,7 @@ function App(){
       <p>Je suis étudiant en informatique </p>
       <p>Actuellement en  {formation}</p>
 
-      <Presentation />
+      <Presentation nom={nom} formation={formation}/>
     </div>
   );
 }

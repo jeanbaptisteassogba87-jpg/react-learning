@@ -1,8 +1,8 @@
-function Presentation(){
+function Presentation({nom,formation}){
     return(
         <section>
-            <h2>ma présentation</h2>
-            <p>Je suis étudiant en informatique.</p>
+            <h2>Ma présentation</h2>
+            <p>Je suis {nom} , étudiant en Informatique {formation}.</p>
         </section>
     );
 }
