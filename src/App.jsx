@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Presentation from "./Presentation";
 
 function App(){
   const nom = "Jean-Baptiste"
@@ -8,6 +9,8 @@ function App(){
        <h1>Bonjour {nom} </h1>
       <p>Je suis étudiant en informatique </p>
       <p>Actuellement en  {formation}</p>
+
+      <Presentation />
     </div>
   );
 }
