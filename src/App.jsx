@@ -1,8 +1,14 @@
 import { useState } from "react";
 
 function App(){
+  const nom = "Jean-Baptiste"
+  const formation = "Licence 3 SIL"
   return(
-    <h1>Bonjour Jean-baptiste</h1>
+    <div>
+       <h1>Bonjour {nom} </h1>
+      <p>Je suis étudiant en informatique </p>
+      <p>Actuellement en  {formation}</p>
+    </div>
   );
 }
 
