@@ -2,6 +2,7 @@ import { useState } from "react";
 import Presentation from "./Presentation";
 import Skills from "./Skills";
 import Contact from "./Contact";
+import Visibility from "./Visibility";
 
 function App(){
   const nom = "Jean-Baptiste"
@@ -23,6 +24,8 @@ function App(){
       <p>Compteur : {compteur}</p>
       <button onClick={()=>setCompteur(compteur+1)}>Ajouter </button>
       <button onClick={()=>setCompteur(compteur-1)}>Retirer</button>
+
+      <Visibility />
     </div>
   );
   
