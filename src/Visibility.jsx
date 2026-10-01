@@ -6,7 +6,7 @@ function Visibility() {
     return (
         <div>
             <button onClick={() => setVisible(!visible)}>
-                Afficher / Masquer
+                {visible ? "Masquer" : "Afficher"}
             </button>
 
             {visible && (
