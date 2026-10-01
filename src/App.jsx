@@ -3,6 +3,7 @@ import Presentation from "./Presentation";
 import Skills from "./Skills";
 import Contact from "./Contact";
 import Visibility from "./Visibility";
+import SkillsList from "./SkillsList";
 
 function App(){
   const nom = "Jean-Baptiste"
@@ -26,6 +27,7 @@ function App(){
       <button onClick={()=>setCompteur(compteur-1)}>Retirer</button>
 
       <Visibility />
+      <SkillsList />
     </div>
   );
   
