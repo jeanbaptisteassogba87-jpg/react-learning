@@ -4,6 +4,7 @@ import Skills from "./Skills";
 import Contact from "./Contact";
 import Visibility from "./Visibility";
 import SkillsList from "./SkillsList";
+import Formulaire from "./Formulaire";
 
 function App(){
   const nom = "Jean-Baptiste"
@@ -28,6 +29,7 @@ function App(){
 
       <Visibility />
       <SkillsList />
+      <Formulaire />
     </div>
   );
   
