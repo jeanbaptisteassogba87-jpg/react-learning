@@ -6,6 +6,7 @@ import Visibility from "./Visibility";
 import SkillsList from "./SkillsList";
 import Formulaire from "./Formulaire";
 import Projects from "./Projects";
+import Matrice from "./Matrice";
 
 function App(){
   const nom = "Jean-Baptiste"
@@ -38,6 +39,8 @@ function App(){
       <SkillsList />
       <Projects />
       <Formulaire />
+
+      <Matrice />
     </div>
   );
 }
